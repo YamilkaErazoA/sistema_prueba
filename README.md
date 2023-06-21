@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contributing
+
+We welcome contributions to improve this project! To contribute, follow these steps:
+
+1. Fork the repository and clone it to your local machine.
+2. Create a new branch for your changes: `git checkout -b feature/my-branch`.
+3. Make your modifications and additions to the code.
+4. Run the tests to ensure everything is working correctly: `npm test`.
+5. Commit your changes: `git commit -m "Add my feature"`.
+6. Push your branch to your forked repository: `git push origin feature/my-branch`.
+7. Open a pull request in this repository with a detailed description of your changes.
+
+Please make sure to follow our [code of conduct](link-to-code-of-conduct) and maintain a respectful and inclusive environment for everyone.
+
+We appreciate your contributions and look forward to reviewing them!
+
+## Learn More
+
+You can learn more about contributing to open source projects and Git in general. Here are some resources to get you started:
+
+- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
+- [GitHub Flow Guide](https://guides.github.com/introduction/flow/)
+
