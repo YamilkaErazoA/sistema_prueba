@@ -1,8 +1,5 @@
 name: 'Dependency Review'
-on:
-  pull_request:
-    branches:
-      - master
+on: [pull_request]
 
 permissions:
   contents: read
@@ -13,11 +10,5 @@ jobs:
     steps:
       - name: 'Checkout Repository'
         uses: actions/checkout@v3
-      - name: 'Dependency Review'
-        uses: actions/dependency-review-action@v2
-        with:
-          fail-on-severity: critical
-          allow-licenses: GPL-3.0, BSD-3-Clause, MIT
-          deny-licenses: LGPL-2.0, BSD-2-Clause
-          allow-ghsas: GHSA-abcd-1234-5679, GHSA-efgh-1234-5679
-          fail-on-scopes: development, runtime
+      - name: Dependency Review
+        uses: actions/dependency-review-action@main
