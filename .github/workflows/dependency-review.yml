@@ -12,15 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout Repository'
-<<<<<<< HEAD
-<<<<<<< HEAD
         uses: actions/checkout@v3
-=======
-        uses: actions/checkout@v3 
->>>>>>> 506a384364a9de01ea70bbefc29fbffca307fd41
-=======
-        uses: actions/checkout@v3
->>>>>>> 94af55341c079f8d06a2e4f555f0617253804cd6
       - name: 'Dependency Review'
         uses: actions/dependency-review-action@v2
         with:
